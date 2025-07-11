@@ -61,7 +61,7 @@ public class Assignment4 {
 		
 		float average= fifth+sixth;
 		System.out.println("5th Value: " + fifth);
-        System.out.println("6th Value: " + sixth);
+                System.out.println("6th Value: " + sixth);
 		System.out.println("Average value of 5th & 6th number:" +average);
 		
 		/*4.Create a list of the top 5 highest-grossing movies of all time and print out the third 

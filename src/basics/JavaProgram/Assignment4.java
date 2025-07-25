@@ -61,6 +61,7 @@ public class Assignment4 {
 
 		float average = fifth + sixth;
 		System.out.println("5th Value: " + fifth);
+<<<<<<< HEAD
 		System.out.println("6th Value: " + sixth);
 		System.out.println("Average value of 5th & 6th number:" + average);
 
@@ -69,6 +70,14 @@ public class Assignment4 {
 		 * out the third movie on the list
 		 */
 
+=======
+                System.out.println("6th Value: " + sixth);
+		System.out.println("Average value of 5th & 6th number:" +average);
+		
+		/*4.Create a list of the top 5 highest-grossing movies of all time and print out the third 
+		movie on the list*/
+		
+>>>>>>> aa88cfde8a6b7f7e9cd3c0920fd4e3bc2ae14355
 		System.out.println("-----------------------------4th question-------------------------------");
 		List<String> movieName = new ArrayList<>();
 		movieName.add("Avatar");

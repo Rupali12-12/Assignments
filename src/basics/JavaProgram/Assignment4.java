@@ -45,40 +45,39 @@ public class Assignment4 {
 		attractions.add("Louvre Museum");
 
 		// print all attractions
-		for (String places : attractions) {
-			System.out.println(places);
-		}
+		System.out.println("Total 10 Attractions: " +attractions);
+		
 		// Print the size
 		System.out.println("Total number of attractions  :" + attractions.size());
 
-		//3. Create an array of 10 numbers (any 10 numbers) and print out the Average of 5th and 6th value
-		
+		/*3. Create an array of 10 numbers (any 10 numbers) and print out the Average
+		of 5th and 6th value*/
+
 		System.out.println("-------------------------3rd question-----------------------");
-		int[] numbers= {21,34,12,43,20,37,76,98,64,57};
-		
-		int fifth=numbers[4];
-		int sixth=numbers[5];
-		
-		float average= fifth+sixth;
+		int[] numbers = { 21, 34, 12, 43, 20, 37, 76, 98, 64, 57 };
+
+		int fifth = numbers[4];
+		int sixth = numbers[5];
+
+		float average = fifth + sixth;
 		System.out.println("5th Value: " + fifth);
-        System.out.println("6th Value: " + sixth);
-		System.out.println("Average value of 5th & 6th number:" +average);
-		
-		/*4.Create a list of the top 5 highest-grossing movies of all time and print out the third 
-		movie on the list*/
-		
+		System.out.println("6th Value: " + sixth);
+		System.out.println("Average value of 5th & 6th number:" + average);
+
+		/*
+		 * 4.Create a list of the top 5 highest-grossing movies of all time and print
+		 * out the third movie on the list
+		 */
+
 		System.out.println("-----------------------------4th question-------------------------------");
-		List <String>movieName=new LinkedList<>();
+		List<String> movieName = new ArrayList<>();
 		movieName.add("Avatar");
 		movieName.add("Avengers");
 		movieName.add("Titanic");
 		movieName.add("Jurassic World");
 		movieName.add("The Lion King");
-		
-		System.out.println("Thrid movie in the list :" +movieName.get(2));
-		
-		
-		
+
+		System.out.println("Thrid movie in the list :" + movieName.get(2));
 
 	}
 
